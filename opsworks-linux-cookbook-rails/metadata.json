@@ -1,0 +1,34 @@
+{
+  "name": "opsworks-linux-cookbook-rails",
+  "description": "Reference cookbook to show managing Ruby On Rails app on OpsWorks",
+  "long_description": "# opsworks-linux-cookbook-rails Cookbook\n\n## Requirements\n\n* Signed up for an AWS account\n* IAM User credentials\n* Service Access Permissions enabled on your IAM user\n* [AWS Command Line Tool (AWS CLI)](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) installed on your workstation.\n* `bash` or equivalent shell\n\n### Platforms\n\n* Tested and verified on Amazon Linux 2015.09\n* Tested and verified on Ubuntu 14.04\n\n### Chef\n- Chef 12+\n\n\n### Cookbooks\n- application_ruby\n- build-essential\n- poise-ruby\n\n\n## Usage\n\n* run `berks package`\n* upload `cookbooks-*.tar.gz` to the appropriate artifactory repository.\n* create stack using custom chef cookbooks\n* create custom layer\n* add `opsworks-linux-cookbook-rails` as recipe in `setup`\n* start instance\n* goto http://public IP of your instance/\n",
+  "maintainer": "Anshul Sharma",
+  "maintainer_email": "optimisticanshul@gmail.com",
+  "license": "Apache 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+    "application_ruby": ">= 0.0.0",
+    "build-essential": ">= 0.0.0",
+    "poise-ruby": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1",
+  "source_url": "https://github.com/optimisticanshul/opsworks-linux-cookbook-rails",
+  "issues_url": "https://github.com/optimisticanshul/opsworks-linux-cookbook-rails/issues"
+}
